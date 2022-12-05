@@ -22,7 +22,7 @@ LIMIT 10
 
 
 3
-SELECT DISTINCT identifier, count(*) as amount
+SELECT avaliability, count(identifier) as amount
 FROM shop_data
 WHERE (avaliability = 'доступно' or avaliability = 'под заказ')
 GROUP by avaliability

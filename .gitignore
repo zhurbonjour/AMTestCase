@@ -2,3 +2,4 @@
 venv
 src/__pycache__/
 src/views.py
+/parsed_data.db
